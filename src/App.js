@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import HeroSection from './components/HeroSection/HeroSection';
+import Feature from './components/Feature/Feature';
+import Menu from './components/Menu/Menu';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Story from './components/Story/Story';
+import Footer from './components/Footer/Footer';
+import {BrowserRouter} from 'react-router-dom';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+    render(){
+        return (
+            <BrowserRouter>
+            <React.Fragment>
+                <Menu />
+                <HeroSection />
+                <About />
+                <Feature />
+                <Story />
+                <Contact />
+                <Footer />
+            </React.Fragment>
+            </BrowserRouter>
+        )
+    }
 }
 
 export default App;

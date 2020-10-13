@@ -1,0 +1,38 @@
+.feature {
+    background-color: #f4f4f4;
+    min-height: 80vh;
+    padding: 15px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image {
+    height: 80vh;
+    width: 500px;
+    background-image: url('../../assets/mae-mu-bph0kUmAoXc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.featureParagraph {
+    text-align: justify;
+    margin: auto;
+    font-size: 1.4rem;
+    max-width: 700px;
+    margin-left: 0;
+    font-weight: 500;
+    padding: 15px;
+    font-family: "Dancing Script", sans-serif;
+}
+
+.featureParagraph p{
+    color:#64686b;
+}

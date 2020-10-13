@@ -1,0 +1,40 @@
+.about {
+    min-height: 80vh;
+    background-color: #f4f4f4;
+    padding: 15px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.image {
+    width: 500px;
+    height: 80vh;
+    background-image: url('../../assets/priscilla-du-preez-J6El7kpHcYU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.aboutParagraph {
+    position: relative;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.4rem;
+    max-width: 700px;
+    margin-right: 0;
+    font-weight: 500;
+    padding: 15px;
+    font-family: "Dancing Script", sans-serif;
+    
+}
+
+.aboutParagraph p {
+    color:#64686b;
+}

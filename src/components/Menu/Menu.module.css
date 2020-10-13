@@ -1,0 +1,155 @@
+ .menu {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.container {
+    max-width: 1300px;
+    /* display: flex; */
+    margin: 0 auto;
+    /* justify-content: flex-end; */
+}
+/* 
+.menuList {
+    padding: 0;
+    margin: 0;
+}
+
+
+.menuItems + .menuItems {
+    padding-left: 20px;
+}
+
+.menuItems {
+    display: inline-block;
+    padding: 10px 0px;
+    
+}
+
+.menuItem {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.menuItem:hover {
+    color: burlywood;
+}
+
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .icon {
+        display: inline;
+    }
+    .menuItems {
+        display: none;
+    }
+  }
+ */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+    
+  .navbar {
+    font-size: 1.2rem;
+    /* background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%); */
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    padding-bottom: 15px;
+  }
+  
+  .mainnav {
+    list-style-type: none;
+    display: none;
+  }
+  
+  .navlinks,
+  .logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .mainnav li {
+    text-align: center;
+    margin: 15px auto;
+  }
+  
+  .logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .navbartoggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+    }
+  
+    .mainnav {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  
+    .mainnav li {
+      margin: 0;
+    }
+  
+    .navlinks {
+      margin-left: 40px;
+    }
+  
+    .logo {
+      margin-top: 0;
+    }
+  
+    .navbartoggle {
+      display: none;
+    }
+  
+    .logo:hover,
+    .navlinks:hover {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+  
