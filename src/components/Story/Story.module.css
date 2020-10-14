@@ -11,10 +11,12 @@
     justify-content: space-between;
     flex-wrap: wrap-reverse;
     flex-direction: row;
+    height: 80vh;
 }
 
 .image {
-    height: 80vh;
+    height: 80%;
+    margin: auto;
     width: 500px;
     background-image: url('../../assets/monika-grabkowska-zKpAT0nBw7Q-unsplash.jpg');
     background-repeat: no-repeat;
@@ -35,4 +37,8 @@
 
 .storyParagraph p{
     color:#64686b;
+}
+
+.storyParagraph h2 {
+    padding:15px 0;
 }

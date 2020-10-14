@@ -48,7 +48,7 @@ render() {
                             <div style={{height: '2px', backgroundColor:'pink', margin: '7px 0'}}></div>
                         </div>
                     </span>
-                    <a href="/" className={styles.logo}>logo</a>
+                    <a href="/" className={styles.logo}>Sweet bakery</a>
                     <ul className={this.state.mainNav} id="js-menu">
                         <li>
                             <HashLink to = '#home'  className = {styles.navlinks} onClick = {this.navDefaultStyle}>Home</HashLink>

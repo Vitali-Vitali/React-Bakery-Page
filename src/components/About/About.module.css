@@ -11,11 +11,14 @@
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
+    height: 80vh; 
 }
 
 .image {
     width: 500px;
-    height: 80vh;
+    margin: auto;
+    position: relative;
+    height: 80%;
     background-image: url('../../assets/priscilla-du-preez-J6El7kpHcYU-unsplash.jpg');
     background-size: cover;
     background-position: center;
@@ -37,4 +40,8 @@
 
 .aboutParagraph p {
     color:#64686b;
+}
+
+.aboutParagraph h2 {
+    padding:15px 0;
 }

@@ -11,10 +11,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    height: 80vh;
 }
 
 .image {
-    height: 80vh;
+    height: 80%;
+    margin: auto;
     width: 500px;
     background-image: url('../../assets/mae-mu-bph0kUmAoXc-unsplash.jpg');
     background-repeat: no-repeat;
@@ -35,4 +37,8 @@
 
 .featureParagraph p{
     color:#64686b;
+}
+
+.featureParagraph h2 {
+    padding: 15px 0;
 }

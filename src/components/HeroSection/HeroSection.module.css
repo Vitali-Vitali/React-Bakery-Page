@@ -1,6 +1,6 @@
 .hero {
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background-color: black;
     background-image: url('../../assets/homepagebread.jpg');
     background-position: center; 
@@ -10,11 +10,26 @@
 
 .container {
     margin: 0 auto;
-    height: 90%;
+    height: 100%;
     max-width: 1300px;
-    border: 2px solid red;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+    align-items: flex-end;
+    color: #64686b;
+    padding: 30px;
+}
+
+.paragraph {
+    max-width: 600px;
+}
+
+.paragraph h1 {
+    font-size: 4rem;
+    color: #de975d;
+}
+
+.paragraph p {
+    padding: 60px 0;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 700;
 }
