@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './HeroSection.module.css';
+import {HashLink} from 'react-router-hash-link';
 
 const HeroSection = () => {
     return (
@@ -7,7 +8,7 @@ const HeroSection = () => {
             <div className = {styles.container}>
                 <div className = {styles.paragraph}>
                     <h1>Good bread for a good day.</h1>
-                    <p>Even though we are constantly faced with the rush of modern life, we can still experience precious moments in which we feel as if the time stopped. These moments are dedicated to small everyday things, such as enjoying the smell and taste of freshly baked bread. </p>
+                    <button className = {styles.button}><HashLink to = '#about'>Find out more</HashLink></button>
                 </div>
             </div>
         </div>

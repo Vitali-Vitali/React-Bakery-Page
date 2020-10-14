@@ -1,6 +1,6 @@
 .hero {
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     background-color: black;
     background-image: url('../../assets/homepagebread.jpg');
     background-position: center; 
@@ -13,7 +13,7 @@
     height: 100%;
     max-width: 1300px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     color: #64686b;
     padding: 30px;
 }
@@ -24,12 +24,36 @@
 
 .paragraph h1 {
     font-size: 4rem;
-    color: #de975d;
+    font-family: sans-serif;
+    color: white;
+    padding-bottom: 100px;
 }
 
-.paragraph p {
-    padding: 60px 0;
-    color: black;
-    font-size: 1.6rem;
-    font-weight: 700;
+.button {
+    background: transparent;
+    border-radius: 1000px;
+    padding: 20px 0;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 26px/1 "Open Sans", sans-serif;
+    text-align: center;
+    border: 2px solid #c7c7c7;
+    cursor: pointer;
+    outline:none;
 }
+
+.button:hover{
+    background: #ffffff;
+    color: #c7c7c7;
+    border: 2px solid  #ffffff;
+}
+
+.button:hover a {
+    color: #c7c7c7;
+}
+
+.button a, a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 45px;
+} 
