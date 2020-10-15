@@ -1,6 +1,5 @@
 .contact {
     background-color: blanchedalmond;
-    min-height: 80vh;
     background-image: url('../../assets/contactSection.JPG');
     background-position: center;
     background-repeat: no-repeat;
@@ -17,6 +16,7 @@
     align-items: center;
     margin: auto;
     height: 80vh;
+    max-height: 700px;
 }
 
 .image {
