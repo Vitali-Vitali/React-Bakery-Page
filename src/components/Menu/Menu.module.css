@@ -18,12 +18,13 @@
 
 .navbar {
     font-size: 1.2rem;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .mainnav {
     list-style-type: none;
     display: none;
+    animation: slide-down .2s ease-out;
 }
 
 .navlinks {
@@ -41,26 +42,16 @@
     margin: 15px auto;
 }
 
-.mainnav.active {
-    /* transform: translate(150px, 150px) rotate(80deg); */
-    /* animation-timing-function: ease-in;
-    animation-duration: 3s;
-    transition: visibility 0s, opacity 0.5s linear; */
-    /* display: block;
-    -webkit-animation: fadeIn 3s;
-    animation: fadeIn 3s; */
-    transition: all 1s ease;
-}
 .logo {
     display: inline-block;
-    font-size: 2.7rem;
-    margin-top: 10px;
-    margin-left: 20px;
+    font-size: 1.7rem;
+    margin-top: 7px;
+    margin-left: 15px;
 }
 
 .navbartoggle {
     position: absolute;
-    top: 10px;
+    top: 3px;
     right: 20px;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.8);
@@ -69,6 +60,7 @@
 
 .active {
     display: block;
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -97,6 +89,7 @@
 
     .logo {
         margin-top: 0;
+        font-size: 2.7rem;
     }
 
     .navbartoggle {
@@ -108,3 +101,9 @@
         color: rgba(255, 255, 255, 1);
     }
 }
+
+@keyframes slide-down {
+    0% { opacity: 0; height: 0; }   
+  100% { opacity: 1; height: 230px; }
+}
+

@@ -41,9 +41,9 @@ render() {
                 <nav className={styles.navbar}>
                     <span className={styles.navbartoggle} id="js-navbar-toggle">
                         <div onClick={this.toggleNavBarHandler} style={{width: '40px', padding: '5px'}}>
-                            <div style={{height: '2px', backgroundColor:'pink', margin: '7px 0'}}></div>
-                            <div style={{height: '2px', backgroundColor:'pink', margin: '7px 0'}}></div>
-                            <div style={{height: '2px', backgroundColor:'pink', margin: '7px 0'}}></div>
+                            <div style={{height: '2px', backgroundColor:'white', margin: '7px 0'}}></div>
+                            <div style={{height: '2px', backgroundColor:'white', margin: '7px 0'}}></div>
+                            <div style={{height: '2px', backgroundColor:'white', margin: '7px 0'}}></div>
                         </div>
                     </span>
                     <a href="/" className={styles.logo}>Sweet bakery</a>
