@@ -43,13 +43,13 @@
 }
 
 .button:hover{
-    background: #ffffff;
-    color: #c7c7c7;
+    background: transparent;
+    color: #ffffff;
     border: 2px solid  #ffffff;
 }
 
 .button:hover a {
-    color: #c7c7c7;
+    color: #ffffff;
 }
 
 .button a, a:visited {

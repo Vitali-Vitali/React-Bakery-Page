@@ -41,10 +41,6 @@
     margin-bottom: 2em;
   }
   
-
-  
- 
-  
   .nav__title {
     font-weight: 600;
     font-size: 1.3rem;
@@ -68,6 +64,10 @@
     margin: 0.6em 0;
     font-size: 1.2rem;
     padding: 0 1.7em;
+  }
+
+  .footer__btn:hover {
+    background-color: rgba(255, 186, 82, 0.35);
   }
   
   .footer ul {
@@ -95,6 +95,10 @@
   
   .nav__ul a {
     color: #999;
+  }
+
+  .nav__ul a:hover {
+    color: rgba(255, 186, 82, 0.9);
   }
   
   .nav__ul--extra {

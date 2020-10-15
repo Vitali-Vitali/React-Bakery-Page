@@ -41,6 +41,16 @@
     margin: 15px auto;
 }
 
+.mainnav.active {
+    /* transform: translate(150px, 150px) rotate(80deg); */
+    /* animation-timing-function: ease-in;
+    animation-duration: 3s;
+    transition: visibility 0s, opacity 0.5s linear; */
+    /* display: block;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s; */
+    transition: all 1s ease;
+}
 .logo {
     display: inline-block;
     font-size: 2.7rem;
