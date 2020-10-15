@@ -10,7 +10,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    min-height: 80vh;
+    min-height: 700px;
     height: auto;
 }
 

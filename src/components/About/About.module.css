@@ -1,5 +1,4 @@
 .about {
-    /* min-height: 80vh; */
     background-color: #f4f4f4;
     padding: 15px 0;
 }
@@ -11,7 +10,7 @@
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
-    min-height: 80vh;
+    min-height: 700px;
     height: auto;
 }
 

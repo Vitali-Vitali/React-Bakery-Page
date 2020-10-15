@@ -10,7 +10,7 @@
     justify-content: space-between;
     flex-wrap: wrap-reverse;
     flex-direction: row;
-    min-height: 80vh;
+    min-height: 700px;
     height: auto;
 }
 
@@ -21,7 +21,7 @@
     margin: auto;
     position: relative;
     height: 600px;
-    background-image: url('../../assets/monika-grabkowska-zKpAT0nBw7Q-unsplash.jpg');
+    background-image: url('../../assets/photo-1518562923427-19e694fbd8e9.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
